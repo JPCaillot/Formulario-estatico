@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"> 
+    <script src="javaScript.js"></script>
     <title>Formulário genérico</title>
 </head>
 <body>
-    <form action="/pagina-teste-formulario" method="post">
+    <form id="formulario" action="/pagina-teste-formulario" method="post">
         <div>
+            <img onmousedown="Empresa()" src="logo.png" alt="Logo da Empresa">
             <h1>Formulário Atendimento Empresa Fictícia</h1>
         </div>
         <div>
@@ -25,7 +27,7 @@
             <textarea id="msg" class="campo"></textarea>
         </div>
         <div class="button">
-            <button type="submit">Enviar sua mensagem</button>
+            <button type="submit" onclick="Enviar()">Enviar sua mensagem</button>
         </div>
         <div class="button">
             <button type="reset">Apagar dados fornecidos</button>
