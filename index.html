@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Formulário genérico</title>
+</head>
+<body>
+    <form action="/pagina-teste-formulario" method="post">
+        <div>
+            <h1>Formulário Atendimento Empresa Fictícia</h1>
+        </div>
+        <div>
+            <label for="nome">Digite seu nome:</label>
+            <input type="text" id="nome" class="campo">
+        </div>
+        <div>
+            <label for="email">Digite seu email:</label>
+            <input type="text" id="email" class="campo">
+        </div>
+        <div>
+            <label for="msg">Motivo do contato:</label>
+            <textarea id="msg" class="campo"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Enviar sua mensagem</button>
+        </div>
+        <div class="button">
+            <button type="reset">Apagar dados fornecidos</button>
+        </div>
+    </form>
+</body>
+</html>

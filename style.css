@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --cor-fundo: rgb(143, 198, 201);
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte1);
+}
+
+div {
+    padding: 10px;
+}
+
+label {
+    vertical-align: top;
+}
+
+.campo {
+    border-radius: 5px;
+    background-color: var(--cor-fundo);
+}
+
+#msg {
+    display: inline;
+}
+
+button {
+    display: block;
+    margin: auto;
+    background-color: var(--cor-fundo);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
